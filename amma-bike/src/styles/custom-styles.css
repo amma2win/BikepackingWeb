@@ -1,0 +1,75 @@
+/* custom-styles.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el banner */
+  .banner {
+    background-color: #333;
+    color: #b80d0d;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Estilos para las páginas */
+  .page {
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .page {
+      padding: 1rem;
+    }
+  }
+  /* Estilos para la navegación */
+.navbar {
+    background-color: #444;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos responsivos para la navegación */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0.5rem;
+    }
+  
+    .navbar a {
+      margin: 0 0.5rem;
+    }
+  }
+  
+  
